@@ -102,3 +102,15 @@ header{
 .plan-description{
     color:#737272;
 }
+/* ___________Here is positive section____________ */
+.positive-elements{
+    background: url("../img/gradient1.png"),url("../img/watch.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:200px;
+    border-radius: 20px;
+    color:#fff;
+}
+.positive-elements h2{
+    width:40%;
+}
