@@ -1,1 +1,79 @@
-{\rtf1}
+/* ________Basic Setup___________ */
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    max-width: 1660px;
+    margin: auto;
+    padding:0 100px;
+}
+section{
+    padding:100px 0;
+}
+ul{
+    list-style:none;
+}
+p{
+    line-height: 25px;
+    font-size:16px;
+}
+h2{
+    margin-bottom:20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.btn{
+    padding:15px 20px;
+    background:#F15B22;
+    color:#fff;
+    font-size:20px;
+    font-weight: 600;
+    border:none;
+    border-radius: 5px;
+}
+/* _________Here is header section___________ */
+header{
+    background:url(../img/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content{
+    padding:260px 0;
+    text-align: right;
+    margin-left: auto;
+    width:40%;
+}
+.header-title{
+    font-size:65px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.header-description{
+    margin-bottom: 20px;
+    width:80%;
+    margin-left: auto;
+}
+/* ___________Here is failure section__________ */
+.failure-element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.failure-content{
+    padding-top:220px;
+    width:25%;
+}
+.failure-element i{
+    color:#62d962;
+    font-size:25px;
+}
+.failure-description{
+    margin-bottom:20px;
+}
+.failure-step li{
+    line-height: 30px;
+}
