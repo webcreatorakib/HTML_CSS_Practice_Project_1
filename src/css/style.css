@@ -14,6 +14,10 @@ html{
 section{
     padding:100px 0;
 }
+a{
+    text-decoration: none;
+    color:#fff;
+}
 ul{
     list-style:none;
 }
@@ -113,4 +117,43 @@ header{
 }
 .positive-elements h2{
     width:40%;
+}
+/* ____________Here is footer_________ */
+footer{
+    background:black;
+    padding:150px 0;
+    color:#fff;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.future{
+    width:40%;
+}
+.future p{
+    margin-bottom: 30px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+.social i{
+    font-size:25px;
+}
+.social i:nth-child(1){
+    color:rgb(237, 101, 43);
+}
+.subscribe input{
+    display: block;
+    width:100%;
+    padding:20px;
+    border:1px solid #fff;
+    outline:none;
+    margin: 15px 0;
+    background:none;
+    border-radius: 5px;
+    color:#fff;
 }
