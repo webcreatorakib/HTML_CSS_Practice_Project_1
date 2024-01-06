@@ -77,3 +77,28 @@ header{
 .failure-step li{
     line-height: 30px;
 }
+/* __________Here is my plan___________ */
+.plan-title{
+    text-align: center;
+    margin-bottom:50px;
+}
+.plans-elements{
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    justify-content: center;
+    text-align: center;
+}
+.plan-item img{
+    width:100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.plan-item-title{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.plan-description{
+    color:#737272;
+}
